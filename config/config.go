@@ -23,11 +23,11 @@ type DBConfig struct {
 func BuildDBConfig() *DBConfig {
 
 	dbConfig := DBConfig{
-		Host:    "localhost",
+		Host:    "sql6.freemysqlhosting.net",
 		Port:     3306,
-		User:     "root",
-		Password: "secret",
-		DBName:   "diary",
+		User:     "sql6521583",
+		Password: "G5LG2exA2i",
+		DBName:   "sql6521583",
 	}
 	return &dbConfig
 }
