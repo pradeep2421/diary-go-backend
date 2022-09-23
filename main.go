@@ -23,12 +23,14 @@ func main(){
 	}
 	fmt.Println(viper_config.Db.DbDriver);
 	config.ConnectToDB(); 
-	
-	portNumber := ":" + os.Getenv("PORT");
+	portNumber := os.Getenv("PORT")
+	if portNumber == "" {
+		portNumber = "9000" // Default port if not specified
+    }
 	fmt.Println(portNumber);
 	fmt.Println("hellooo");
 	r := routers.SetupRouter();
 
-	r.Run(portNumber);
+	r.Run(":" +portNumber);
 	
 }
