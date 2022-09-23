@@ -1,1 +1,1 @@
-web: bin/diary-golang-backend
+web: diary-golang-backend
