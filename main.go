@@ -25,6 +25,7 @@ func main(){
 	config.ConnectToDB(); 
 	portNumber := ":" + os.Getenv("PORT");
 	fmt.Println(portNumber);
+	fmt.Println(portNumber);
 
 	r := routers.SetupRouter();
 
