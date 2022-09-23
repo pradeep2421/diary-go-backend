@@ -5,7 +5,6 @@ import (
 	"backend/routers"
 	"backend/utils"
 	"fmt"
-	"os"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -23,12 +22,11 @@ func main(){
 	}
 	fmt.Println(viper_config.Db.DbDriver);
 	config.ConnectToDB(); 
-	portNumber := ":" + os.Getenv("PORT");
-	fmt.Println(portNumber);
-	fmt.Println(portNumber);
+	
 
+	fmt.Println("hellooo");
 	r := routers.SetupRouter();
 
-	r.Run(portNumber);
+	r.Run();
 	
 }
