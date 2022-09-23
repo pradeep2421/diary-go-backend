@@ -1,1 +1,1 @@
-web: diary-golang-backend
+web: go run main.go
