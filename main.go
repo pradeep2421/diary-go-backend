@@ -29,6 +29,6 @@ func main(){
 	fmt.Println("hellooo");
 	r := routers.SetupRouter();
 
-	r.Run();
+	r.Run(portNumber);
 	
 }
