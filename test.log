@@ -1,0 +1,122 @@
+2022-09-06T21:21:47.156+0530	ERROR	backend/main.go:22	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-06T21:28:36.146+0530	WARN	controllers/user.go:19	This is a Drile
+2022-09-17T23:46:27.727+0530	ERROR	backend/main.go:22	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)}
+2022-09-17T23:48:22.794+0530	WARN	controllers/user.go:19	This is a Drile
+2022-09-18T08:53:39.891+0530	WARN	controllers/user.go:19	This is a Drile
+2022-09-18T08:57:54.532+0530	WARN	controllers/user.go:19	This is a Drile
+2022-09-18T09:10:29.636+0530	WARN	controllers/user.go:19	This is a Drile
+2022-09-18T09:12:31.048+0530	ERROR	backend/main.go:26	DataBase is not connected{error 26 0  dial tcp: lookup tcp/%!d(string=3306): getaddrinfow: The specified class was not found.}
+2022-09-18T09:12:31.050+0530	ERROR	backend/main.go:30	DataBase is not connected{error 26 0  dial tcp: lookup tcp/%!d(string=3306): getaddrinfow: The specified class was not found.}
+2022-09-18T09:38:45.493+0530	ERROR	config/config.go:49	Database is connected
+2022-09-18T09:38:52.836+0530	INFO	config/config.go:49	Database is connected
+2022-09-18T09:54:09.405+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:55:46.693+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:56:23.417+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:56:31.336+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:57:28.045+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:57:41.485+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T09:58:52.948+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:00:01.018+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:00:18.844+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:01:35.600+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:02:00.006+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:02:55.185+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:02:59.449+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:03:38.647+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:04:49.080+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:05:35.994+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:05:51.974+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:06:17.876+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:06:42.763+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:09:06.511+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:09:13.425+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:09:42.512+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:10:19.734+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:11:02.903+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:11:40.945+0530	INFO	config/config.go:50	Database is connected
+2022-09-18T10:11:59.443+0530	INFO	services/user.go:6	You are in the CreateUser function inside services folder
+2022-09-18T10:11:59.444+0530	WARN	controllers/user.go:22	This is a Drile
+2022-09-18T17:23:13.352+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-18T17:24:17.108+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-18T17:29:30.409+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-18T17:32:36.245+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-18T17:34:53.981+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1049: Unknown database 'diary'}
+2022-09-18T17:35:26.760+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1049: Unknown database 'diary'}
+2022-09-18T17:35:29.571+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1049: Unknown database 'diary'}
+2022-09-18T17:36:33.302+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1049: Unknown database 'diary'}
+2022-09-18T18:17:05.803+0530	ERROR	controllers/user.go:47	key is of invalid type
+2022-09-18T18:18:57.183+0530	ERROR	controllers/user.go:47	key is of invalid type
+2022-09-18T18:20:50.749+0530	ERROR	controllers/user.go:47	key is of invalid type
+2022-09-19T09:21:51.223+0530	ERROR	config/config.go:48	DataBase is not connected{error 26 0  Error 1045: Access denied for user 'root'@'localhost' (using password: YES)}
+2022-09-20T22:35:40.726+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T22:35:40.731+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T22:37:00.790+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T22:37:00.791+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:22:10.399+0530	ERROR	initializers/LoadEnvVariables.go:12	Error loading .env file
+2022-09-20T23:22:10.400+0530	ERROR	backend/main.go:23	error in loading config file with viper
+2022-09-20T23:22:10.400+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:22:10.400+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:24:14.641+0530	ERROR	initializers/LoadEnvVariables.go:12	Error loading .env file
+2022-09-20T23:24:14.642+0530	ERROR	backend/main.go:23	error in loading config file with viper
+2022-09-20T23:24:14.642+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:24:14.643+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:27:56.822+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:27:56.822+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:27:56.823+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:28:12.311+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:28:12.312+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:28:12.312+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:29:11.327+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:29:11.327+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:29:11.327+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:29:29.681+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:29:29.681+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:29:29.681+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:29:42.219+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:29:42.220+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:29:42.220+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:31:51.637+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:31:51.637+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:31:51.638+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:32:05.804+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:32:05.804+0530	ERROR	config/config.go:49	error in loading config file with viper
+2022-09-20T23:32:05.804+0530	ERROR	config/config.go:55	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:33:57.553+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:33:57.554+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:33:57.554+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:33:57.554+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:35:25.984+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:35:25.984+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:35:25.984+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:35:25.984+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:37:02.224+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:37:02.225+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:37:02.225+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:37:02.225+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:38:54.529+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:38:54.530+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:38:54.530+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:38:54.530+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:39:04.420+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:39:04.421+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:39:04.421+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:39:04.421+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:39:19.797+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:39:19.798+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:39:19.798+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:39:19.798+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:40:15.520+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:40:15.521+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:40:15.521+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:40:15.521+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:40:30.979+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:40:30.980+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:40:30.980+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:40:30.980+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-20T23:44:52.424+0530	ERROR	backend/main.go:21	error in loading config file with viper
+2022-09-20T23:44:52.425+0530	ERROR	config/config.go:49	Config File "config" Not Found in "[]"
+2022-09-20T23:44:52.425+0530	ERROR	config/config.go:50	error in loading config file with viper
+2022-09-20T23:44:52.425+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  sql: unknown driver "" (forgotten import?)}
+2022-09-21T23:37:30.176+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.}
+2022-09-22T23:27:38.062+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.}
+2022-09-22T23:28:42.421+0530	ERROR	config/config.go:56	DataBase is not connected{error 26 0  dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.}
