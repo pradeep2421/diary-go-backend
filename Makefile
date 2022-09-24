@@ -1,12 +1,13 @@
-mysql:
-	docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret -d mysql:latest
-	
-migrateup:
-	migrate -path db/migration -database "mysql://root:secret@tcp(localhost:3306)/diary" -verbose up
+GO_BUILD_ENV := CGO_ENABLED=0 GOOS=linux GOARCH=amd64
+DOCKER_BUILD=$(shell pwd)/.docker_build
+DOCKER_CMD=$(DOCKER_BUILD)/diary-go-backend
 
-migratedown:
-	migrate -path db/migration -database "mysql://root:secret@tcp(localhost:3306)/diary" -verbose down
-sqlc:
-	sqlc generate
+$(DOCKER_CMD): clean
+	mkdir -p $(DOCKER_BUILD)
+	$(GO_BUILD_ENV) go build -v -o $(DOCKER_CMD) .
 
-.PHONY: mysql migrateup migratedown sqlc
+clean:
+	rm -rf $(DOCKER_BUILD)
+
+heroku: $(DOCKER_CMD)
+	heroku container:push web

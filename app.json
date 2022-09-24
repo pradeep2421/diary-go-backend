@@ -1,0 +1,7 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "Go Getting Started Example App",
+  "keywords": ["go-backend", "go", "sample", "example"],
+  "website": "https://github.com/pradeep2421/diary-go-backend",
+  "repository": "https://github.com/pradeep2421/diary-go-backend"
+}
